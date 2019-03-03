@@ -2,7 +2,7 @@
 
 Theme with blog posts on the home page.
 
-Simple responsive design based on Bootstrap v4. Posts tags support and pagination.
+Simple responsive design based on Bootstrap v4. Tags support and pagination.
 
 # Installation
 

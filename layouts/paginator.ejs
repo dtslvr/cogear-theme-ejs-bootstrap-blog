@@ -2,7 +2,7 @@
   <ul class="pagination">
     <% if (paginator.prev !== null) { %>
       <li class="page-item">
-        <a class="page-link" href="<%= paginator.baseUri + paginator.prev %>">
+        <a class="page-link" href="<%= paginator.prev %>">
           Previous
         </a>
       </li>
@@ -22,7 +22,7 @@
         </li>
       <% } else { %>
         <li class="page-item">
-          <a class="page-link" href="<%= paginator.baseUri + (i + 1) %>/">
+          <a class="page-link" href="<%= `${paginator.baseUri}/${i + 1}` %>/">
             <%= i + 1 %>
           </a>
         </li>
@@ -30,7 +30,7 @@
     <% } %>
     <% if (paginator.next !== null) { %>
       <li class="page-item">
-        <a class="page-link" href="<%= paginator.baseUri + paginator.next %>">Next</a>
+        <a class="page-link" href="<%= paginator.next %>">Next</a>
       </li>
     <% } %>
   </ul>

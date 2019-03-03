@@ -1,0 +1,23 @@
+<h1 class="mt-4">
+  <%= title %>
+</h1>
+
+<hr />
+
+<p class="text-muted">
+  Posted on <%= date %>
+</p>
+
+<hr />
+
+<%- content %>
+
+<hr />
+
+<div>
+  <% for(var i = 0; i < tags.length; i++) { %>
+    <a class="btn btn-outline-primary btn-sm" href="/tag/<%= tags[i] %>" role="button">
+      <%= tags[i] %>
+    </a>
+  <% } %>
+</div>

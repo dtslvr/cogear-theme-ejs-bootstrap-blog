@@ -1,0 +1,20 @@
+<div class="media text-muted pt-3">
+  <a href="<%= post.author.link %>">
+    <img class="mr-2 rounded" src="<%= post.author.avatar %>" />
+  </a>
+
+
+  <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+    <div class="d-flex justify-content-between align-items-center w-100">
+      <a class="d-block" href="<%= post.author.link %>">
+        <strong>
+          <%= post.author.login %>
+        </strong>
+      </a>
+      <div>
+        <%= post.date %>
+      </div>
+    </div>
+    <span class="d-block"><%- post.teaser %> <a href="<%= post.uri %>">Read more...</a></span>
+  </div>
+</div>

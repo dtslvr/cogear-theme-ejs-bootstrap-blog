@@ -32,17 +32,17 @@ theme: ejs-bootstrap-blog
 blog:
   index: "" # Provide posts to index page
   regex: "^p/"
-  tagUri: 'tag'
+  tagUri: "tag"
   perPage: 5
 pages:
   ^p/:
     layout: post
     author:
      login: User
-     avatar: 'https://www.gravatar.com/avatar/400caf343d3bab57ab93f63e21a12be7?s=24'
+     avatar: "https://www.gravatar.com/avatar/400caf343d3bab57ab93f63e21a12be7?s=24"
      link: https://cogearjs.org
 ```
 
 # Docs
 
-More info: [https://cogearjs.org/docs/themes](https://cogearjs.org/docs/themes).
+More info: [https://cogearjs.org/docs/themes](https://cogearjs.org/docs/themes)

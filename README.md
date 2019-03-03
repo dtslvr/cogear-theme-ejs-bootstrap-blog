@@ -18,7 +18,7 @@ npm install cogear-theme-ejs-bootstrap-blog
 After that, you need to edit your site `config.yaml` to set up installed theme.
 
 ```yaml
-theme: blog
+theme: ejs-bootstrap-blog
 ```
 
 # Configuration

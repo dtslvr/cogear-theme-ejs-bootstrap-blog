@@ -3,7 +3,7 @@
 	"description": "Cogear.JS blog theme with bootstrap in ejs",
 	"version": "1.0.0",
 	"author": "Thomas Kaul",
-	"repository": "https://github.com/codemotion/cogear-theme-default",
+	"repository": "https://github.com/dtslvr/cogear-theme-ejs-bootstrap-blog",
 	"homepage": "https://cogearjs.org",
 	"license": "MIT"
 }

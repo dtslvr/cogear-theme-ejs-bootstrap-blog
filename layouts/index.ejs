@@ -17,7 +17,9 @@
     <div class="container">
       <% if (typeof posts != "undefined") { %>
         <%- include('./post-list', {posts: posts}); %>
-        <%- include('./paginator', {}); %>
+        <% if (typeof paginator != "undefined") { %>
+          <%- include('./paginator', {}); %>
+        <% } %>
       <% } else if (typeof content != "undefined") { %>
         <%- include('./content', {}); %>
       <% } %>

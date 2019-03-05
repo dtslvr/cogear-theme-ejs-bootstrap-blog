@@ -2,7 +2,9 @@
 
 Theme with blog posts on the home page.
 
-Simple responsive design based on Bootstrap v4. Tags support and pagination.
+![screenshot](https://github.com/dtslvr/cogear-theme-ejs-bootstrap-blog/raw/master/screenshot.png)
+
+Simple responsive design based on [Bootstrap](https://getbootstrap.com) v4. Tags support and pagination.
 
 # Installation
 

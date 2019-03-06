@@ -1,7 +1,7 @@
 {
 	"name": "cogear-theme-ejs-bootstrap-blog",
 	"description": "Cogear.JS blog theme with bootstrap in ejs",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Thomas Kaul",
 	"repository": "https://github.com/dtslvr/cogear-theme-ejs-bootstrap-blog",
 	"homepage": "https://cogearjs.org",

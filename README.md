@@ -1,23 +1,31 @@
-# Cogear.JS blog theme with bootstrap in ejs
+# Bootstrap Blog Theme in ejs for Cogear.JS
 
-Theme with blog posts on the home page.
+This is a simple theme with blog posts on the home page and a responsive design based on [Bootstrap](https://getbootstrap.com) v4. Tags support and pagination.
 
 ![screenshot](https://github.com/dtslvr/cogear-theme-ejs-bootstrap-blog/raw/master/screenshot.png)
 
-Simple responsive design based on [Bootstrap](https://getbootstrap.com) v4. Tags support and pagination.
-
 # Installation
 
-You need to install [`cogear-plugin-blog`](https://github.com/codemotion/cogear-plugin-blog) to use this theme.
+## Preset
 
-Go to the site folder and install theme with command:
+There is a ready to use blog preset for the `ejs-bootstrap-blog` theme. Just clone the [repository](https://github.com/dtslvr/cogear-preset-ejs-bootstrap-blog), install the dependencies and run the project.
+
+## Manual Installation
+
+Install [`cogear-plugin-blog`](https://github.com/codemotion/cogear-plugin-blog) first to use this theme.
+
+Go to the site folder and install the theme:
 ```bash
-yarn add cogear-theme-ejs-bootstrap-blog
-# or
-npm install cogear-theme-ejs-bootstrap-blog
+npm add cogear-theme-ejs-bootstrap-blog
 ```
 
-After that, you need to edit your site `config.yaml` to set up installed theme.
+or
+
+```bash
+yarn install cogear-theme-ejs-bootstrap-blog
+```
+
+After that, edit your site's `./config.yaml` to set up the installed theme.
 
 ```yaml
 theme: ejs-bootstrap-blog
@@ -32,7 +40,7 @@ description:
 keywords:
 theme: ejs-bootstrap-blog
 blog:
-  index: "" # Provide posts to index page
+  index: ""
   regex: "^p/"
   tagUri: "tag"
   perPage: 5
@@ -45,6 +53,6 @@ pages:
      link: https://cogearjs.org
 ```
 
-# Docs
+# Further reading
 
-More info: [https://cogearjs.org/docs/themes](https://cogearjs.org/docs/themes)
+Find more information in the official [Cogear.JS](https://cogearjs.org) documentation: https://cogearjs.org/docs

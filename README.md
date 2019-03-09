@@ -15,14 +15,14 @@ There is a ready to use blog preset for the `ejs-bootstrap-blog` theme. Just clo
 Install [`cogear-plugin-blog`](https://github.com/codemotion/cogear-plugin-blog) first to use this theme.
 
 Go to the site folder and install the theme:
-```bash
-npm install cogear-theme-ejs-bootstrap-blog
+``` shell
+> npm install cogear-theme-ejs-bootstrap-blog
 ```
 
 or
 
-```bash
-yarn add cogear-theme-ejs-bootstrap-blog
+``` shell
+> yarn add cogear-theme-ejs-bootstrap-blog
 ```
 
 After that, edit your site's `./config.yaml` to set up the installed theme.

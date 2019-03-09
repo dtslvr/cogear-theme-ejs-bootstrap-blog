@@ -16,13 +16,13 @@ Install [`cogear-plugin-blog`](https://github.com/codemotion/cogear-plugin-blog)
 
 Go to the site folder and install the theme:
 ```bash
-npm add cogear-theme-ejs-bootstrap-blog
+npm install cogear-theme-ejs-bootstrap-blog
 ```
 
 or
 
 ```bash
-yarn install cogear-theme-ejs-bootstrap-blog
+yarn add cogear-theme-ejs-bootstrap-blog
 ```
 
 After that, edit your site's `./config.yaml` to set up the installed theme.

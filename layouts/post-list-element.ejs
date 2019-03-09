@@ -1,15 +1,21 @@
-<h1 class="my-0">
-  <%= post.title %>
-</h1>
+<div class="post-list-element">
+  <h1 class="my-0 title">
+    <a href="<%= post.uri %>">
+      <%= post.title %>
+    </a>
+  </h1>
 
-<span class="text-muted">
-  <%= post.date %>
-</span>
+  <span class="text-muted">
+    <%= post.date %>
+  </span>
 
-<div class="my-3">
-  <%- post.teaser %>
-</div>
+  <div class="my-3">
+    <%- post.teaser %>
+  </div>
 
-<div class="mb-4">
-  <a href="<%= post.uri %>">Read more...</a>
+  <div class="mb-4">
+    <a href="<%= post.uri %>">
+      Read more...
+    </a>
+  </div>
 </div>
